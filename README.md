@@ -30,6 +30,6 @@ projects pipeline with GitHub use wehoooks to keep production updated.
 
 ## Part 3
 
-* We pull the image by using the command: 
+* We pull the image by using the command: docker pull web 
 
-* To run the container we use:
+* To run the container we use: docker run -dit -p 8080:80 web
