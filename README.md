@@ -22,10 +22,14 @@ projects pipeline with GitHub use wehoooks to keep production updated.
 
 * To create a dockerhub public repo you need to create an account verify you email address then go to repository tab click create repository give the new repo a name and keep it public the repo is now created on docker hub. then on terminal use docker login --username jewell88 and then enter password.
 
-* you would need to clone the project of the repo that contains project and Docker file also need to do a new docker fresh build image then push that to docker hub. they will need to logon also kill current container for new one need to docker pull latest now rerun the latest container again.
+* You would need to clone the project of the repo that contains project and Docker file also need to do a new docker fresh build image then push that to docker hub. they will need to logon also kill current container for new one need to docker pull latest now rerun the latest container again.
 
-* 
+* to get to secret be on the github repo you made for project 6 then go to settings click the secrets tab. go to docker.com to the tokens copy the token and then create the secret name for DOCKER_TOKEN paste the token in here as well as the username.
+
+* As far as the workflow I used one of the premade ones you gave us to use. i changed the docker hub repo location.
 
 ## Part 3
 
-* 
+* We pull the image by using the command: 
+
+* To run the container we use:
