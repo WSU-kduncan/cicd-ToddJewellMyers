@@ -20,4 +20,10 @@ projects pipeline with GitHub use wehoooks to keep production updated.
 
 ## Part 2 
 
-* to create a dockerhub public repo you need to 
+* To create a dockerhub public repo you need to create an account verify you email address then go to repository tab click create repository give the new repo a name and keep it public the repo is now created on docker hub. then on terminal use docker login --username jewell88 and then enter password.
+
+* 
+
+## Part 3
+
+* 
