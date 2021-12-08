@@ -8,4 +8,4 @@ projects pipeline with GitHub use wehoooks to keep production updated.
 
 * I also added the new repository we needed to my machine im using to use docker so everythign is in one place.
 
-* I downloaded ubuntu image to use for the container to run the websever and help contain the "website" we are creating i used the command: docker pull ubuntu like mentioned on docker hub. Then within my terminal 
+* I downloaded ubuntu image to use for the container to run the websever and help contain the "website" we are creating i used the command: docker pull ubuntu like mentioned on docker hub. Then within my terminal i use the command docker run -it -v /home/jewell/cicd-ToddJewellMyers:/from_host ubuntu
